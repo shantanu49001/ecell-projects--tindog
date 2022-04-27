@@ -1,0 +1,116 @@
+#title{/* ids me #name div me .div_name  */
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;/*meet new wali heading*/
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+body{
+   font-family: monospace ;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";/*heading changed*/
+    font-size: 2.5rem;
+    font-weight:bold ;
+}
+.nav-item{
+    padding: 0 18px;/*spacing between navbar elements*/
+}
+.nav-link{/*har ek html me hum log tah and classes lga sakte hai*/
+font-size: 1.2rem;
+font-family: "Montserrat-light";
+}
+/*spacing buttons*/
+.download-btn{/*tag for buttons*/
+    margin:5% 3% 5% 0;
+}
+.title-image{
+   width :60%;
+   /*now how to rotate that it is css tranform property*/
+   transform: rotate(15deg);
+
+
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+   
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "Montsarrat-Bold";
+
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+    
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonial section*/
+#testimonials{
+ /*   padding: 7% 15%;*/
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+/*press section*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-images{
+    width:15%;
+    margin:20px 20px 80px;
+}
+#pricing{
+    padding:100px;
+}
+.card{
+    padding:10px 20px 10px ;
+}
+#cta{
+    background-color: #ff4c68;
+    color:#fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.btn01{
+    padding: 20%;
+    margin:5% 1%;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin:20px 10px;
+}
